@@ -1,0 +1,43 @@
+/* 
+    Como criar uma estrutura básica no css:
+
+    Seletor{
+        propriedade: valor;
+    }
+
+    Seletor composto = define o pai, depois os filhos;
+
+    Em HTML e CSS definir as classes/ID com hifen
+
+    pseudoelemento é um elemento que depende de uma tag para existir
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+nav a{
+    color: black;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #1EA61A;
+}
+
+#header-pesquisa{
+    border: 0.2em solid #1EA61A;
+    color: black;
+    height: 2em;
+    text-align: center;
+}
+
+#header-pesquisa::placeholder{
+    color: #1EA61A;
+}
