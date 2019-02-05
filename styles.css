@@ -27,6 +27,7 @@ h1{
 
 img{
     border: 0.6em solid #30665c;
+    margin: 0.5em 3em;
     width: 20em;
 }
 
@@ -53,4 +54,12 @@ nav a:hover{
 
 textarea{
     resize: none;
+}
+
+.formulario-contato p, h3{
+    font-size: 18pt;
+}
+
+.negrito{
+    font-weight: bold;
 }
