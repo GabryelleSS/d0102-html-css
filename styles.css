@@ -17,8 +17,17 @@
     margin: 0;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 h1{
     text-align: center;
+}
+
+img{
+    border: 0.6em solid #30665c;
+    width: 20em;
 }
 
 nav a{
@@ -40,4 +49,8 @@ nav a:hover{
 
 #header-pesquisa::placeholder{
     color: #1EA61A;
+}
+
+textarea{
+    resize: none;
 }
